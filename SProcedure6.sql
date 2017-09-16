@@ -2,6 +2,9 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
+USE LibraryManagementSystem
+GO
+
 
 CREATE PROCEDURE borrower_with_more_than_five
 --Retrieve the names, addresses, and number of books checked out for all borrowers who have more than five books checked out.

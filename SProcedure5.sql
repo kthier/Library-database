@@ -2,6 +2,9 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
+USE LibraryManagementSystem
+GO
+
 
 CREATE PROCEDURE number_of_book_loans_by_branch
 --For each library branch, retrieve the branch name and the total number of books loaned out from that branch.

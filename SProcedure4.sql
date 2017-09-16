@@ -2,6 +2,9 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
+USE LibraryManagementSystem
+GO
+
 
 CREATE PROCEDURE Sharpstown_Due_date 
 --For each book that is loaned out from the "Sharpstown" branch and whose DueDate is today, retrieve the book title, the borrower's name, and the borrower's address.

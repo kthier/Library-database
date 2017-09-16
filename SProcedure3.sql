@@ -2,6 +2,9 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
+USE LibraryManagementSystem
+GO
+
 
 CREATE PROCEDURE borrowers_with_no_books
 --Retrieve the names of all borrowers who do not have any books checked out.

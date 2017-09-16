@@ -1,6 +1,10 @@
 /*
 *Populate Tables
 */
+
+USE LibraryManagementSystem
+GO
+
 	INSERT INTO publisher
 		(name, address, phone)
 		VALUES 
@@ -70,7 +74,7 @@
 		('1101904240', 'Dark Matter', 'Broadway Books'),
 		('0345391802', 'The Hitchhiker''s Guide to the Galaxy', 'Del Rey'),
 		('1503953300', 'The Queen''s Poisoner', '47North'),
-		('0689852231', 'The House of the Scorpion', 'x')
+		('0689852231', 'The House of the Scorpion', 'Minotaur Books')
 	;--There are at least 20 books in the BOOK table.
 	--There must be at least one book written by 'Stephen King'.
 	SELECT * FROM book;

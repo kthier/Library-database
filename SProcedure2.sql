@@ -2,6 +2,9 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
+USE LibraryManagementSystem
+GO
+
 
 CREATE PROCEDURE copies_in_each_library
 	--Ex: How many copies of the book titled "The Lost Tribe" are owned by the library branch whose name is "Sharpstown"?

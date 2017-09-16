@@ -3,6 +3,10 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
+USE LibraryManagementSystem
+GO
+
+
 CREATE PROCEDURE copies_in_library_branch 
 	--Ex: How many copies of the book titled "The Lost Tribe" are owned by the library branch whose name is "Sharpstown"?
 	@title varchar(50) = NULL, 
